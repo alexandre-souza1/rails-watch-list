@@ -1,7 +1,7 @@
 
 <header><h2>Movie List:DB</h2></header>
 
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://miro.medium.com/v2/resize:fit:3840/1*chnnCiC2ozMfPpuXNoIjjw.jpeg);">
+<div class="banner shadow" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://miro.medium.com/v2/resize:fit:3840/1*chnnCiC2ozMfPpuXNoIjjw.jpeg);">
   <div class="container">
     <h1>Movie List:DB brings <strong>a full movie database</strong> to <strong>everyone</strong>!</h1>
     <p>Change your life and watch Madame Web.</p>
@@ -11,9 +11,9 @@
 
 <div class="container py-5">
 <div class="d-flex align-items-center justify-content-between mb-3">
-<h3 class="mb-0 mt-1">Choose your list:</h3>
+<h3 class="mb-0">Choose your list:</h3>
    <%= link_to new_list_path(@list) do %>
-       <button class="btn btn-primary mt-1">Create a new list</button>
+       <button class="btn btn-primary">Create a new list</button>
   <% end %>
 </div>
 <div class="row">
